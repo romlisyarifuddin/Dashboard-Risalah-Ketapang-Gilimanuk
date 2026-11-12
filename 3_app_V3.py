@@ -515,7 +515,7 @@ def update_graphs(pelabuhan, start_date, end_date, graph_type, n_clicks, event_i
 
     return fig_cuaca, fig_angin, fig_gelombang, fig_arus, fig_visibility, fig_peringatan
 
-# TABEL DETAIL (MENIRU FORMAT LAMPIRAN RISALAH)
+# TABEL DETAIL (MENIRU FORMAT LAMPIRAN RISALAH)hsjd
 @app.callback(
     Output('table-data', 'data'),
     Input('graph-peringatan', 'clickData'),
