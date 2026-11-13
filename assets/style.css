@@ -1,0 +1,20 @@
+.custom-checklist label {
+    background-color: #e3f2fd;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #90caf9;
+}
+
+.custom-checklist input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checklist input[type="checkbox"]:checked + span {
+    background-color: #1565c0;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
